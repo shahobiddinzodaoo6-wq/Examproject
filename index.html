@@ -1,12 +1,552 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
-    
+    <div class="flex justify-around mt-[30px] gap-[400px] mb-[30px] max-sm:hidden">
+        <div class="flex gap-[20px] ">
+            <img src="./images/vk.svg" alt="">
+            <img src="./images/instagram.svg" alt="">
+            <img src="./images/facebook.svg" alt="">
+        </div>
+        <div class="flex gap-[40px]">
+            <div class="flex gap-[10px]">
+                <img src="./images/phone.svg" alt="">
+                <b>+7 (495) 255-30-20</b>
+            </div>
+            <div class="flex gap-[10px] ">
+                <img src="./images/whatsapp.svg" alt="">
+                <b>+7 (915) 359-95-19</b>
+            </div>
+        </div>
+    </div>
+    <hr class="w-[80%] m-auto border-t-[#DEDEFF] max-sm:hidden">
+    <div class=" flex justify-around pt-[25px] pb-[30px] shadow-xl ">
+        <img src="./images/Logo (1).svg" alt="">
+        <img class="hidden  max-sm:block  max-sm:w-[24px] max-sm:h-[24px] " src="./images/menu.png" alt="">
+        <div class="flex gap-[40px] max-sm:hidden ">
+            <div class="flex gap-[30px] mt-[10px]">
+                <h1 class="hover:text-[#E6514A] hover:border-b-[2px] hover:border-b-solid hover:border-b-[#E6514A]">О
+                    центре</h1>
+                <h1 class="hover:text-[#E6514A] hover:border-b-[2px] hover:border-b-solid hover:border-b-[#E6514A]">
+                    Онлайн обучение</h1>
+                <h1 class="hover:text-[#E6514A] hover:border-b-[2px] hover:border-b-solid hover:border-b-[#E6514A]">
+                    Отзывы</h1>
+                <h1 class="hover:text-[#E6514A] hover:border-b-[2px] hover:border-b-solid hover:border-b-[#E6514A]">База
+                    знатий</h1>
+                <h1 class="hover:text-[#E6514A] hover:border-b-[2px] hover:border-b-solid hover:border-b-[#E6514A]">
+                    Контакты</h1>
+            </div>
+            <button class="w-[240px] h-[50px] rounded-[50px] bg-[#E6514A] text-[white] ">
+                <div class="flex gap-[20px] ml-[40px]">
+                    <img src="./images/btn phone.svg" alt="">
+                    <h1>Заказать звонок</h1>
+                </div>
+            </button>
+        </div>
+    </div>
+    <div class="flex justify-between  max-sm:flex-col max-sm:items-center">
+        <div class="w-[550px] mt-[150px] ml-[150px] max-sm:text-center max-sm:ml-[30px]  max-sm:w-[425px]">
+            <h1 class="text-[#3035C3] max-sm:text-[20px]">Мы работаем онлайн ежедневно только для вас!</h1>
+            <h1 class="text-[60px] mt-[30px]">Начните говорить
+                по-турецки уже <span class="text-[#E6514A]"> через 2 месяца</span></h1>
+            <button class="w-[370px] h-[50px] bg-[#E6514A] text-[white] rounded-[50px] mt-[40px]">Записаться на пробный
+                урок</button>
+        </div>
+        <img class="max-sm:w-[380px] max-sm:h-[380px] max-sm:rounded-[30px] max-sm:mt-[60px]"
+            src="./images/Rectangle 60.png" alt="">
+    </div>
+    <div class="flex justify-center mt-[30px] ">
+        <div class="flex gap-[10px]">
+            <img class="h-[1px] mt-[13px]" src="./images/Rectangle 60 (1).png" alt="">
+            <h1>Приветствие</h1>
+        </div>
+    </div>
+    <h1 class="text-[45px] mt-[20px] text-center max-sm:text-[50px]">Давайте знакомиться!</h1>
+    <div
+        class="w-[100%] h-[400px] bg-[url(./images/bg.png)] bg-no-repeat bg-center bg-cover mt-[250px] max-sm:h-[300px] max-sm:mt-[120px]">
+        <img class="relative left-[250px] bottom-[250px] max-sm:left-[0px] max-sm:bottom-[100px]"
+            src="./images/Frame 9.png" alt="">
+    </div>
+    <div class="flex justify-center mt-[100px] ">
+        <div class="flex gap-[10px]">
+            <img class="h-[1px] mt-[13px]" src="./images/Rectangle 60 (1).png" alt="">
+            <h1>ПРОГРАММЫ</h1>
+        </div>
+    </div>
+    <h1 class="text-center text-[45px] mt-[20px]">Наши программы обучения:</h1>
+    <div
+        class="flex justify-center gap-[20px] mt-[100px] mb-[200px] max-sm:flex-col max-sm:items-center max-sm:gap-[40px]">
+        <div class="w-[300px] max-sm:w-[400px]">
+            <div
+                class="w-[300px] h-[200px] border-[1px] border-solid border-[#DEDEFF] rounded-[5px] text-center max-sm:w-[400px] max-sm:h-[220px]">
+                <h1 class="text-[40px] text-[#3035C3] pt-[25px]">690 <b class="text-[20px]">руб</b></h1>
+                <h1 class="text-[20px] mt-[30px]">7 дней доступа ко <br>
+                    всем онлайн курсам</h1>
+            </div>
+            <div class="flex gap-[10px] mt-[30px]">
+                <img class="w-[20px] h-[23px] " src="./images/Frame 3.png" alt="">
+                <p>Проверочный тест</p>
+            </div>
+            <div class="flex gap-[10px] mt-[20px]">
+                <img class="w-[20px] h-[23px] " src="./images/Frame 3.png" alt="">
+                <p>Курсы от А1 до В1</p>
+            </div>
+            <div class="flex gap-[10px] mt-[20px]">
+                <img class="w-[20px] h-[23px] " src="./images/Frame 3.png" alt="">
+                <p>Интересные упражнения</p>
+            </div>
+            <div class="flex gap-[10px] mt-[20px]">
+                <img class="w-[20px] h-[23px] " src="./images/Frame 3.png" alt="">
+                <p>Подсказки экспертов</p>
+            </div>
+            <div class="flex gap-[10px] mt-[20px]">
+                <img class="w-[20px] h-[23px] " src="./images/Frame 3.png" alt="">
+                <p>Разговорный клуб</p>
+            </div>
+            <button
+                class="w-[240px] h-[52px] bg-[#E6514A] rounded-[40px] text-[white] mt-[55px] ml-[60px]">Получить</button>
+            <div class="flex gap-[10px] mt-[15px] ml-[60px]">
+                <img class="w-[16px] h-[16px] mt-[5px]" src="./images/Group (4).png" alt="">
+                <b class="text-[#3035C3]">Смотреть презентацию</b>
+            </div>
+        </div>
+        <div class="w-[300px] max-sm:w-[400px]">
+            <div
+                class="w-[300px] h-[200px] border-[1px] border-solid border-[#DEDEFF] rounded-[5px] text-center  max-sm:w-[400px] max-sm:h-[220px]">
+                <h1 class="text-[40px] text-[#3035C3] pt-[25px]"><b class="text-[20px]">от</b> 1190</h1>
+                <b class="text-[#3035C3] text-[20px]">руб./урок</b>
+                <h1 class="text-[20px] mt-[5px]">Индивидуальные уроки <br>
+                    по Skype</h1>
+            </div>
+            <div class="flex gap-[10px] mt-[30px]">
+                <img class="w-[20px] h-[23px] " src="./images/Frame 3.png" alt="">
+                <p>Бесплатный доступ к онлайн-
+                    порталу</p>
+            </div>
+            <div class="flex gap-[10px] mt-[20px]">
+                <img class="w-[20px] h-[23px] " src="./images/Frame 3.png" alt="">
+                <p>Любой уровень за 32 урока</p>
+            </div>
+            <div class="flex gap-[10px] mt-[20px]">
+                <img class="w-[20px] h-[23px] " src="./images/Frame 3.png" alt="">
+                <p>Вы выбираете преподавателя</p>
+            </div>
+            <div class="flex gap-[10px] mt-[20px]">
+                <img class="w-[20px] h-[23px] " src="./images/Frame 3.png" alt="">
+                <p>Вы выбираете время занятий</p>
+            </div>
+
+            <button
+                class="w-[240px] h-[52px] bg-[#E6514A] rounded-[40px] text-[white] mt-[75px] ml-[60px]">Записаться</button>
+            <div class="flex gap-[10px] mt-[15px] ml-[60px]">
+                <img class="w-[16px] h-[16px] mt-[5px]" src="./images/Group (4).png" alt="">
+                <b class="text-[#3035C3]">Смотреть презентацию</b>
+            </div>
+        </div>
+        <div class="w-[300px] max-sm:w-[400px] ">
+            <div
+                class="w-[300px] h-[200px] border-[1px] border-solid border-[#DEDEFF] rounded-[5px] text-center  max-sm:w-[400px] max-sm:h-[220px]">
+                <h1 class="text-[40px] text-[#3035C3] pt-[25px]"><b class="text-[20px]">от</b> 15000</h1>
+                <b class="text-[#3035C3] text-[20px]">руб./урок</b>
+                <h1 class="text-[20px] mt-[5px]">Турецкий в группе онлайн <br>
+                    за 3 месяца</h1>
+            </div>
+            <div class="flex gap-[10px] mt-[30px]">
+                <img class="w-[20px] h-[23px] " src="./images/Frame 3.png" alt="">
+                <p>24 онлайн-занятия по 90 минут</p>
+            </div>
+            <div class="flex gap-[10px] mt-[20px]">
+                <img class="w-[20px] h-[23px] " src="./images/Frame 3.png" alt="">
+                <p>Интерактивные учебные материалы</p>
+            </div>
+            <div class="flex gap-[10px] mt-[20px]">
+                <img class="w-[20px] h-[23px] " src="./images/Frame 3.png" alt="">
+                <p>Бесплатный доступ к онлайн-
+                    орталу</p>
+            </div>
+            <div class="flex gap-[10px] mt-[20px]">
+                <img class="w-[20px] h-[23px] " src="./images/Frame 3.png" alt="">
+                <p>Закрытый форум для общения</p>
+            </div>
+
+            <button
+                class="w-[240px] h-[52px] bg-[#E6514A] rounded-[40px] text-[white] mt-[73px] ml-[60px]">Записаться</button>
+            <div class="flex gap-[10px] mt-[15px] ml-[60px]">
+                <img class="w-[16px] h-[16px] mt-[5px]" src="./images/Group (4).png" alt="">
+                <b class="text-[#3035C3]">Смотреть презентацию</b>
+            </div>
+        </div>
+        <div class="w-[300px] max-sm:w-[400px]">
+            <div
+                class="w-[300px] h-[200px] border-[1px] border-solid border-[#DEDEFF] rounded-[5px] text-center max-sm:w-[400px] max-sm:h-[220px]">
+                <h1 class="text-[25px] text-[#3035C3] pt-[25px]">Корпоративное <br> обучение</h1>
+
+                <h1 class="text-[20px] mt-[20px]">Специальный курс <br>
+                    обучения сотрудников</h1>
+            </div>
+            <div class="flex gap-[10px] mt-[30px]">
+                <img class="w-[20px] h-[23px] " src="./images/Frame 3.png" alt="">
+                <p>Обучение по уникальной программе
+                    TÖMER</p>
+            </div>
+            <div class="flex gap-[10px] mt-[20px]">
+                <img class="w-[20px] h-[23px] " src="./images/Frame 3.png" alt="">
+                <p>Оригинальные учебные материалы</p>
+            </div>
+            <div class="flex gap-[10px] mt-[20px]">
+                <img class="w-[20px] h-[23px] " src="./images/Frame 3.png" alt="">
+                <p>Интерактивные материалы в личном
+                    кабинете</p>
+            </div>
+            <div class="flex gap-[10px] mt-[20px]">
+                <img class="w-[20px] h-[23px] " src="./images/Frame 3.png" alt="">
+                <p>Скидка на индивидуальные занятия</p>
+            </div>
+
+            <button
+                class="w-[240px] h-[52px] bg-[#E6514A] rounded-[40px] text-[white] mt-[50px] ml-[60px]">Подробнее</button>
+            <div class="flex gap-[10px] mt-[15px] ml-[60px]">
+                <img class="w-[16px] h-[16px] mt-[5px]" src="./images/Group (4).png" alt="">
+                <b class="text-[#3035C3]">Смотреть презентацию</b>
+            </div>
+        </div>
+
+    </div>
+    <div class="w-[83%] h-[450px] bg-[#3035C3] rounded-[25px] m-auto max-sm:w-[95%] max-sm:h-[900px]">
+        <div class="flex justify-center gap-[100px] max-sm:flex-col max-sm:items-center max-sm:gap-[30px]">
+            <img class="relative bottom-[37px] max-sm:w-[260px] max-sm:h-[340px] max-sm:bottom-[60px]"
+                src="./images/image 1 (1).png" alt="">
+            <div class="w-[550px] text-[white] pt-[100px] max-sm:w-[300px] max-sm:relative max-sm:bottom-[100px]">
+                <h1 class="text-[35px]">ДИАЛОГ - лицензированное образовательное учреждение</h1>
+                <p class="mt-[20px]">Имеем лицензию министерства образования РФ и специализируемся только на
+                    преподавании турецкого языка
+                    и русского языка для турок.</p>
+                <button
+                    class="w-[380px] h-[52px] bg-[#E6514A] rounded-[30px] mt-[30px] text-[white] max-sm:w-[260px] max-sm:h-[76px] max-sm:text-[25px] max-sm:rounded-[40px]">Записаться
+                    на
+                    пробный урок</button>
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center mt-[200px] ">
+        <div class="flex gap-[10px]">
+            <img class="h-[1px] mt-[13px]" src="./images/Rectangle 60 (1).png" alt="">
+            <h1>ПАРТНЕРЫ</h1>
+        </div>
+    </div>
+    <h1 class="text-center text-[50px] mt-[20px]">Наши услуги оценили:</h1>
+    <div class=" flex justify-center gap-[80px] mt-[70px] mb-[150px]">
+        <img class="max-sm:hidden" src="./images/image 2 (2).png" alt="">
+        <img class="max-sm:hidden" src="./images/image 3 (1).png" alt="">
+        <img class="max-sm:hidden" src="./images/image 4 (1).png" alt="">
+        <img src="./images/image 5.png" alt="">
+        <img src="./images/image 6.png" alt="">
+        <img class="max-sm:hidden" src="./images/image 7 (2).png" alt="">
+    </div>
+    <div
+        class="w-[83%] h-[430px] m-auto bg-[url(./images/bgg.png)] bg-no-repeat bg-center bg-cover rounded-[30px] max-sm:w-[95%] max-sm:h-[700px]">
+        <div class="flex justify-around pt-[100px] max-sm:flex-col max-sm:items-center max-sm:text-center">
+            <div class="w-[600px] max-sm:w-[400px]">
+                <h1 class="text-[40px] text-[white]">Подпишись на 10 бесплатных уроков «Турецкий базар» в email рассылке
+                    для комфортного общения</h1>
+            </div>
+            <button class="w-[240px] h-[52px] bg-[#E6514A] text-[white] rounded-[30px] mt-[100px]">Подписаться</button>
+        </div>
+    </div>
+    <div class="w-[100%] h-[1250px] bg-[#F8F8FF] mt-[100px] max-sm:h-[2500px]">
+        <div class="flex justify-center pt-[100px] ">
+            <div class="flex gap-[10px]">
+                <img class="h-[1px] mt-[13px]" src="./images/Rectangle 60 (1).png" alt="">
+                <h1>КУРСЫ</h1>
+            </div>
+        </div>
+        <h1 class="text-center text-[50px] mt-[20px]">Общий курс турецкого языка:</h1>
+        <div class="flex justify-center gap-[150px] pt-[60px] ">
+            <h1
+                class="text-[#3035C3] text-[20px]  pb-[15px]  hover:text-[#E6514A] hover:border-b-[2px] hover:border-b-solid hover:border-b-[#E6514A]">
+                А1 - начальный уровень</h1>
+            <h1
+                class="text-[#3035C3] text-[20px]  pb-[15px] hover:text-[#E6514A] hover:border-b-[2px] hover:border-b-solid hover:border-b-[#E6514A] max-sm:hidden">
+                A2</h1>
+            <h1
+                class="text-[#3035C3] text-[20px]  pb-[15px] hover:text-[#E6514A] hover:border-b-[2px] hover:border-b-solid hover:border-b-[#E6514A] max-sm:hidden">
+                B1</h1>
+            <h1
+                class="text-[#3035C3] text-[20px]  pb-[15px]  hover:text-[#E6514A] hover:border-b-[2px] hover:border-b-solid hover:border-b-[#E6514A] max-sm:hidden">
+                B2</h1>
+            <h1
+                class="text-[#3035C3] text-[20px]  pb-[15px] hover:text-[#E6514A] hover:border-b-[2px] hover:border-b-solid hover:border-b-[#E6514A] max-sm:hidden">
+                C1</h1>
+        </div>
+        <div class="flex justify-center gap-[50px] pt-[60px] ">
+            <div
+                class="w-[60px] h-[60px] rounded-[50%] bg-[white] shadow-[0px_0px_30px_1px_lightgrey] text-[#E6514A] text-center hover:bg-[#E6514A] hover:text-[white] mt-[360px] max-sm:hidden">
+                <h1 class="text-[28px] mt-[5px]">
+                    < </h1>
+            </div>
+            <div
+                class="w-[70%] h-[770px] bg-[white] rounded-[10px]  shadow-[0px_0px_30px_1px_lightgrey] max-sm:w-[95%] max-sm:h-[1900px]">
+                <div class="w-[900px] m-auto max-sm:w-[350px]">
+                    <h1 class="text-[#3035C3] text-[30px] pt-[60px]">ЧТО ВЫ БУДЕТЕ УМЕТЬ ПОСЛЕ ПРОХОЖДЕНИЯ НАЧАЛЬНОГО
+                        УРОВНЯ А1:</h1>
+                    <p class="pt-[30px] text-[#23283B] ">По окончании данного уровня Вы можете простыми предложениями
+                        рассказать о себе, о своей семье, о
+                        своих друзьях, о работе, описать, что Вы любите и не любите делать, умеете спрашивать и отвечать
+                        который час, использовать цифры от 1 до 1 000, можете поддержать беседу на бытовые темы
+                        (ресторан, магазин, улица), задать простые вопросы собеседнику или ответить самому на темы,
+                        связанные с аспектами бытовой жизни: об отдыхе, о еде и напитках, о ежедневных делах. Можете
+                        написать простые предложения с приветствиями и поздравлениями друзьям и близким.</p>
+                    <div class="flex justify-center gap-[60px] mt-[40px] max-sm:flex-col max-sm:items-center">
+                        <div class="w-[260px]">
+                            <h1 class="text-[25px]">ДЛЯ СПРАВКИ</h1>
+                            <div class="flex gap-[15px] pt-[20px]">
+                                <img class="w-[16px] h-[18px] mt-[5px]" src="./images/Frame 3.png" alt="">
+                                <div>
+                                    <b>Длительность курса:</b>
+                                    <p class="text-[#23283B] pt-[4px]">64 академических часа</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-[15px] pt-[20px]">
+                                <img class="w-[16px] h-[18px] mt-[5px]" src="./images/Frame 3.png" alt="">
+                                <div>
+                                    <b>Длительность занятия:</b>
+                                    <p class="text-[#23283B] pt-[4px]">2 ак.часа (90 минут)</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-[15px] pt-[20px]">
+                                <img class="w-[16px] h-[18px] mt-[5px]" src="./images/Frame 3.png" alt="">
+                                <div>
+                                    <b>Уровень подготовки:</b>
+                                    <p class="text-[#23283B] pt-[4px]">законченный уровень А1</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-[15px] pt-[20px]">
+                                <img class="w-[16px] h-[18px] mt-[5px]" src="./images/Frame 3.png" alt="">
+                                <p class="text-[#23283B]"> В случае, если Вы не освоите материал
+                                    курса, то сможете пройти его повторно
+                                    по гарантии качества абсолютно
+                                    бесплатно</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="text-[25px] ">СТРУКТУРА КУРСА </h1>
+                            <div class="mt-[20px]">
+                                <p>Говорение - <span class="text-[#E6514A]">40%</span></p>
+                                <img class="mt-[10px]" src="./images/Frame 22.png" alt="">
+                            </div>
+                            <div class="mt-[20px]">
+                                <p>Грамматика - <span class="text-[#E6514A]">20%</span></p>
+                                <img class="mt-[10px]" src="./images/Frame 22.png" alt="">
+                            </div>
+                            <div class="mt-[20px]">
+                                <p>Аудирование - <span class="text-[#E6514A]">20%</span></p>
+                                <img class="mt-[10px]" src="./images/Frame 22.png" alt="">
+                            </div>
+                            <div class="mt-[20px]">
+                                <p>Чтение - <span class="text-[#E6514A]">10%</span></p>
+                                <img class="mt-[10px]" src="./images/Frame 22.png" alt="">
+                            </div>
+                            <div class="mt-[20px]">
+                                <p>Письмо - <span class="text-[#E6514A]">10%</span></p>
+                                <img class="mt-[10px]" src="./images/Frame 22.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="text-[25px] ">УЧЕБНЫЕ МАТЕРИАЛЫ</h1>
+                            <img class="mt-[30px]" src="./images/image 8 (1).png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div
+                class="w-[60px] h-[60px] rounded-[50%] bg-[white] shadow-[0px_0px_30px_1px_lightgrey] text-[#E6514A] text-center hover:bg-[#E6514A] hover:text-[white] mt-[360px] max-sm:hidden">
+                <h1 class="text-[28px] mt-[5px]">
+                    ></h1>
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center mt-[150px] ">
+        <div class="flex gap-[10px]">
+            <img class="h-[1px] mt-[13px]" src="./images/Rectangle 60 (1).png" alt="">
+            <h1>ПРЕПОДАВАТЕЛИ</h1>
+        </div>
+    </div>
+    <h1 class="text-center text-[50px] mt-[20px]">Наши преподаватели турецкого языка:</h1>
+    <div class="flex justify-center gap-[40px] mt-[80px] ">
+        <div class="text-center w-[390px] max-sm:hidden">
+            <div class="w-[390px] h-[210px] bg-[#DEDEFF] rounded-[13px]">
+            </div>
+            <h1 class="text-[23px] text-[#3035C3] pt-[30px]">Озджан Бей</h1>
+            <p class="mt-[30px]">Здравствуйте! <br>
+                Меня зовут Озджан. <br>
+                Я работаю в языковом центре «Диалог» более 5 лет. За это время многие мои студенты научились очень
+                хорошо говорить на моем родном и любимом турецком языке. Я веду групповые и индивидуальные занятия.
+                Люблю, когда атмосфера на занятиях располагает к тому, чтобы обучение проходило легко, но эффективно.
+                Жду вас в нашей школе!</p>
+        </div>
+        <div class="text-center w-[390px] ">
+            <div class="w-[390px] h-[210px] bg-[#DEDEFF] rounded-[13px]">
+            </div>
+            <h1 class="text-[23px] text-[#3035C3] pt-[30px]">Айдемир Бей</h1>
+            <p class="mt-[30px]">Здравствуйте, меня зовут Айдемир. Я турок, приехал из Стамбула, где учился и работал. В
+                России живу более
+                12 лет. В Москве окончил РУДН. Работаю преподавателем более 8 лет, веду групповые и индивидуальные
+                занятия. Моя работа позволяет мне каждый день помогать моим студентам осваивать основы турецкого языка и
+                совершенствовать уже пройденный материал. Я очень рад, что многие из моих учеников в дальнейшем
+                применяют свои знания на практике, как в работе так и для личного общения. Жду Вас на своих занятиях!
+            </p>
+        </div>
+        <div class="text-center w-[390px]  max-sm:hidden">
+            <div class="w-[390px] h-[210px] bg-[#DEDEFF] rounded-[13px]">
+            </div>
+            <h1 class="text-[23px] text-[#3035C3] pt-[30px]">Ирина Ханым</h1>
+            <p class="mt-[30px]">Ведущий преподаватель курсов. Выпускница Анкарского Университета, педагог с большим
+                опытом преподавания
+                турецкого языка, профессиональный переводчик. Имеет изданные пособия по изучению турецкого языка.
+                Использует собственные методики преподавания. Около 30 лет постоянно проживает в Турции , владеет языком
+                на уровне носителя, регулярно участвует в конференциях и семинарах по развитию методик обучения
+                турецкому языку иностранцам. Принимала непосредственное участие в создании учебника "Хитит", изданного
+                языковым и исследовательским центром изучения и развития турецкого Tömer.
+            </p>
+        </div>
+    </div>
+    <div class="flex justify-center gap-[30px] mt-[100px] mb-[150px] ">
+        <button class="w-[10px] h-[10px] bg-[#DEDEFF] rounded-[50%] hover:bg-[#E6514A] "></button>
+        <button class="w-[10px] h-[10px] bg-[#DEDEFF] rounded-[50%] hover:bg-[#E6514A] "></button>
+        <button class="w-[10px] h-[10px] bg-[#DEDEFF] rounded-[50%] hover:bg-[#E6514A] "></button>
+        <button class="w-[10px] h-[10px] bg-[#DEDEFF] rounded-[50%] hover:bg-[#E6514A] "></button>
+        <button class="w-[10px] h-[10px] bg-[#DEDEFF] rounded-[50%] hover:bg-[#E6514A] "></button>
+    </div>
+    <div
+        class="w-[83%] h-[500px] m-auto bg-[url(./images/bbg.png)] bg-no-repeat bg-center bg-cover rounded-[20px] max-sm:w-[90%] max-sm:h-[700px]">
+        <div class="flex justify-between pt-[70px] ">
+            <div class="ml-[80px] w-[500px] max-sm:w-[300px]">
+                <div class="flex gap-[10px]">
+                    <img class="h-[1px] mt-[13px] max-sm:ml-[90px]" src="./images/Rectangle 60 (1).png" alt="">
+                    <h1 class="text-[white]">Что нужно?</h1>
+                </div>
+                <h1 class="text-[white] text-[45px] max-sm:text-[50px] max-sm:text-center">Что нужно, чтобы начать?</h1>
+                <div class="flex gap-[10px] mt-[20px] text-[white]">
+                    <h1 class="text-[#E6514A] text-[30px]">1.</h1>
+                    <p class="mt-[10px]">Оставить заявку</p>
+                </div>
+                <div class="flex gap-[10px] mt-[10px] text-[white]">
+                    <h1 class="text-[#E6514A] text-[30px]">2.</h1>
+                    <p class="mt-[10px]">Получить консультацию менеджера, который поможет вам
+                        выбрать подходящий формат обучения и
+                        сориентирует по условиям</p>
+                </div>
+                <div class="flex gap-[10px] mt-[10px] text-[white]">
+                    <h1 class="text-[#E6514A] text-[30px]">3.</h1>
+                    <p class="mt-[10px]">Приступить к изучению прекрасного турецкого языка!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center mt-[170px] ">
+        <div class="flex gap-[10px]">
+            <img class="h-[1px] mt-[13px]" src="./images/Rectangle 60 (1).png" alt="">
+            <h1>ПРЕПОДАВАТЕЛИ</h1>
+        </div>
+    </div>
+    <h1 class="text-center text-[50px] mt-[20px] max-sm:text-[55px]">Наши преимущества:</h1>
+    <div class="flex justify-center gap-[200px] mt-[100px] max-sm:flex-col max-sm:items-center max-sm:gap-[50px]">
+        <div class="text-center">
+            <img src="./images/Frame 19.png" alt="">
+            <b>12000 студентов</b>
+            <p class="mt-[10px]">За 16 лет мы обучили <br> свободному общению</p>
+        </div>
+        <div class="text-center">
+            <img src="./images/Frame 19 (1).png" alt="">
+            <b>1125 из них</b>
+            <p class="mt-[10px]">переехали на ПМЖ в <br> Турцию</p>
+        </div>
+        <div class="text-center">
+            <img src="./images/Frame 19 (2).png " alt="">
+            <b>4169 студентов</b>
+            <p class="mt-[10px]">получили работу в <br> турецких компаниях</p>
+        </div>
+    </div>
+    <div class="text-center mt-[80px]">
+        <button class="w-[370px] h-[52px] bg-[#E6514A] rounded-[30px] text-[white]">Записаться на пробный урок </button>
+    </div>
+    <div
+        class="w-[100%] h-[440px] bg-[url(./images/bg2.png)] bg-no-repeat bg-center bg-cover mt-[100px] max-sm:h-[800px]">
+        <div
+            class="flex justify-center gap-[200px] pt-[100px] max-sm:flex-col max-sm:items-center max-sm:text-center max-sm:gap-[30px]">
+            <div class="w-[600px] text-[white] max-sm:w-[350px]">
+                <h1 class="text-[50px]">Остались вопросы? </h1>
+                <p class="mt-[30px]">Если у вас возникли какие-либо вопросы, пожалуйста, не стесняйтесь задать ваш
+                    вопрос. Наши менеджеры
+                    с радостью дадут всю необходимую информацию, подберут подходящий именно для вас вариант обучения,
+                    расскажут об актуальных акциях и выгодных предложениях. Ждем вас на занятиях!</p>
+            </div>
+            <button class="w-[250px] h-[52px] bg-[#E6514A] text-[white] rounded-[30px] mt-[100px]">Задать
+                вопрос</button>
+        </div>
+    </div>
+    <div class="w-[100%] h-[550px] bg-[#3035C3] max-sm:h-[1500px]">
+        <div
+            class="flex justify-center gap-[100px] pt-[100px] text-[white] max-sm:flex-col max-sm:items-center max-sm:text-center">
+            <div class="w-[270px]">
+                <img src="./images/Logo (2).svg" alt="">
+                <p class="mt-[15px]">Копирование информации с сайта
+                    и ее размещение возможно только
+                    с ссылкой на данный ресурс.</p>
+                <p class="mt-[15px]">Языковые курсы «Диалог» © 2005 -
+                    2019</p>
+            </div>
+            <div class="flex gap-[100px] max-sm:gap-[30px]">
+                <div class="max-sm:w-[150px]">
+                    <h1 class="mt-[20px]">О центре</h1>
+                    <h1 class="mt-[20px]">Курсы</h1>
+                    <h1 class="mt-[20px]">Отзывы учеников</h1>
+                    <h1 class="mt-[20px]">База знатий</h1>
+                    <h1 class="mt-[20px]">Узнать уровень турецкого</h1>
+                    <h1 class="mt-[20px]">Контакты</h1>
+                </div>
+                <div class="max-sm:w-[150px]">
+                    <h1 class="mt-[20px]">Обучение в групппе</h1>
+                    <h1 class="mt-[20px]">Индивидуальные занятия</h1>
+                    <h1 class="mt-[20px]">Корпоративное обучение</h1>
+                    <h1 class="mt-[20px]">Онлайн-обучение</h1>
+                    <h1 class="mt-[20px]">Курсы турецкого по Skype</h1>
+
+                </div>
+            </div>
+            <div class="w-[200px]">
+                <h1>Адрес</h1>
+                <p class="mt-[10px]">г. Москва, пл. Тверская застава д. 3, 4 этаж, оф. 410</p>
+                <h1 class="mt-[30px]">Время работы</h1>
+                <p class="mt-[10px]">Мы работаем ежедневно с 9:00 до 21:00</p>
+                <h1 class="mt-[30px]">Контакты</h1>
+                <div class="flex gap-[10px] mt-[20px] ">
+                    <img class="mt-[5px]" src="./images/phone.svg" alt="">
+                    <p>+7 (495) 255-30-20</p>
+                </div>
+                <div class="flex gap-[10px] mt-[20px] ">
+                    <img class="mt-[5px]" src="./images/whatsapp.svg" alt="">
+                    <p>+7 (915) 359-95-19</p>
+                </div>
+            </div>
+        </div>
+        <hr class="w-[85%] m-auto border-t-[white] mt-[50px]">
+        <div class="flex justify-around mt-[20px] gap-[350px] max-sm:gap-[30px] max-sm:flex-col max-sm:items-center max-sm:text-center">
+            <img class="w-[130px] h-[20px]" src="./images/Social (2).png" alt="">
+            <p class="text-[white]">Информация о платежах
+                Соглашение об обработке персональных данных</p>
+
+        </div>
+    </div>
 </body>
+
 </html>
